@@ -21,6 +21,10 @@ requirements:
     - pip
   run:
     - python
+    - numpy
+    - orca
+    - pandana
+    - pandas
 
 test:
   imports:
