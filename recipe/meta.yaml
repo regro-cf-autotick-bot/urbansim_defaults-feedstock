@@ -1,6 +1,6 @@
 {% set name = "urbansim_defaults" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "45d33f73e1c6d60744b07ac4d81fee1e8270caed3b8c4451ae07b89eb6d3dc26" %}
+{% set version = "0.2" %}
+{% set sha256 = "231f5f80619e273d8e678fcb85fc57aab5161b61f1f8ab239a6fc475f509fd05" %}
 
 package:
   name: {{ name|lower }}
@@ -21,6 +21,10 @@ requirements:
     - pip
   run:
     - python
+    - numpy
+    - orca
+    - pandana
+    - pandas
 
 test:
   imports:
